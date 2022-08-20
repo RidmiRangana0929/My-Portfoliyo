@@ -18,14 +18,25 @@
         }
         main>section>div{
             position: absolute;
-            width: 180px;
-            height: 180px;
+            width: 190px;
+            height: 190px;
             background: white;
             border-radius: 100%;
             right: 0;
             left: 0;
             top: 0;
             bottom: 0;
+            margin: auto;
+        }
+        main>section>div>div{
+            width: 50%;
+            height: 50%;
+            background: red;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
             margin: auto;
         }
         main>section:nth-child(1){
@@ -72,41 +83,41 @@
             bottom: 0;
             margin: auto;
         }
-        main>div:nth-child(5),main>div:nth-child(6),main>div:nth-child(7),main>div:nth-child(8){
+        main>div:nth-child(6),main>div:nth-child(7),main>div:nth-child(8),main>div:nth-child(9){
             width: 150px;
             height: 150px;
             border: 2px solid white;
             position: absolute;
             background: white;
         }
-        main>div:nth-child(5){
+        main>div:nth-child(6){
             left: 0;
             top: 0;
             border-bottom-right-radius: 100%;
         }
-        main>div:nth-child(6){
+        main>div:nth-child(7){
             right: 0;
             top: 0;
             border-bottom-left-radius: 100%;
         }
-        main>div:nth-child(7){
+        main>div:nth-child(8){
             right: 0;
             bottom: 0;
             border-top-left-radius: 100%;
         }
-        main>div:nth-child(8){
+        main>div:nth-child(9){
             left: 0;
             bottom: 0;
             border-top-right-radius: 100%;
         }
-        main>div:nth-child(9),main>div:nth-child(10){
+        main>div:nth-child(10),main>div:nth-child(11){
             border: 2px solid white;
             width: 192px;
-            height: 92px;
+            height: 94px;
             position: absolute;
             background: white;
         }
-        main>div:nth-child(9){
+        main>div:nth-child(10){
             right: 0;
             left: 0;
             top: 0;
@@ -114,7 +125,7 @@
             border-bottom-left-radius: 100px;
             border-bottom-right-radius: 100px;
         }
-        main>div:nth-child(10){
+        main>div:nth-child(11){
             right: 0;
             left: 0;
             bottom: 0;
@@ -127,13 +138,33 @@
 <body>
 
 <main>
-    <section><div></div></section>
-    <section><div></div></section>
-    <section><div></div></section>
-    <section><div></div></section>
+    <section>
+        <div>
+            <div></div>
+    </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+
     <div>
         <div></div>
     </div>
+
+
     <div></div>
     <div></div>
     <div></div>
