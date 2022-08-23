@@ -32,6 +32,7 @@
             padding: 10px;
             font-family: 'Poppins',sans-serif;
             color: rgba(46,41,41,0.96);
+            list-style: none;
         }
         header > nav > ul > li:hover {
             cursor: pointer;
@@ -48,8 +49,38 @@
             width: 250px;
             background: #4C0182;
         }
+        main > nav > ul > li {
+            color: white;
+            list-style: none;
+            padding-top: 40px;
+            font-size: 19px;
+            cursor: pointer;
+        }
         main>section{
             margin-left: 250px;
+            padding: 10px;
+        }
+        main > section > section:first-child {
+            height: 300px;
+            position: relative;
+        }
+        main>section>section:first-child>div{
+            height: 100%;
+            width: calc(100%/3);
+            position: absolute;
+            border: 1px solid rgba(0, 0, 0, 0.33);
+        }
+        main>section>section:first-child>div:nth-child(1){
+            background: url("assets/gif.gif");
+            left: 0;
+        }
+        main>section>section:first-child>div:nth-child(2){
+            background: url("assets/gif.gif");
+            left: calc(100% / 3);
+        }
+        main>section>section:first-child>div:nth-child(3){
+            background: url("assets/gif.gif");
+            right: 0;
         }
         footer{
             position: absolute;
@@ -399,7 +430,7 @@
 
 
 <footer>
-    <h2>Developed By IJSE</h2>
+    <h4>Developed By IJSE</h4>
 </footer>
 
 </body>
