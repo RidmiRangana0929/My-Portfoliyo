@@ -5,17 +5,31 @@
     <title>Case Four</title>
 
     <style>
-        body>main{
-            width: 100vw;
-            height: 100vh;
+        /*::-webkit-scrollbar{
+            width: 8px;
+            background: rgba(63, 56, 56, 0.56);
+        }*/
+        body{
+            margin: 0px;
         }
-
-        body>main>section{
-            width: 100vw;
+        body>main{
+            width: 99vw;
             height: 100vh;
             position: relative;
         }
 
+        body>main>section{
+            width: 99vw;
+            height: 100vh;
+            position: relative;
+        }
+
+        body>main>section:first-child>div{
+            background: #ef1515;
+            width: 99vw;
+            height: 10vh;
+            position: sticky;
+        }
     </style>
 
 </head>
