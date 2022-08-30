@@ -5,7 +5,30 @@
     <title>Title</title>
     <link href="../../../assets/css/normalize.css"
           rel="stylesheet">
-    <style></style>
+    <style>
+
+        header{
+            background: #000000;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 73px;
+            z-index: 2;
+        }
+        header>nav{
+            position: absolute;
+            right: 40px;
+            top: 0;
+        }
+        header>nav>ul>li{
+            display: inline-block;
+            padding: 10px;
+            color: #FFFFFF;
+            list-style: none;
+        }
+
+    </style>
 </head>
 <body>
 <header>
@@ -14,7 +37,7 @@
             <li>About</li>
             <li>Education</li>
             <li>Skills</li>
-            <li>projects</li>
+            <li>Projects</li>
             <li>Services</li>
             <li>Contacts</li>
         </ul>
