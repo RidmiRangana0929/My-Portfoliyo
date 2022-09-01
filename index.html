@@ -40,7 +40,7 @@
         }
         main{
             position: relative;
-            top: 0px;
+            top: 0;
         }
         main>section:first-child{
             background: #000000;
@@ -81,8 +81,8 @@
             color: #ffffff;
         }
         main>section:first-child>div>section{
-            width: 450px;
-            height: 50px;
+            width: 330px;
+            height: 30px;
             display: grid;
             grid-template-rows: repeat(1,1fr);
             grid-template-columns: repeat(6,1fr);
@@ -91,6 +91,12 @@
             right: 0;
             margin: auto;
             background: #8e0000;
+        }
+        main>section:first-child>div>section>div:nth-child(1){
+            background: black;
+        }
+        main>section:first-child>div>section>div:nth-child(1)>img{
+            height: 30px;
         }
 
     </style>
@@ -114,7 +120,9 @@
             <h3>WELCOME TO MY WEBSITE</h3>
             <h1>I'm Ridmi Rangana</h1>
             <section>
-                <div></div>
+                <div>
+                    <img src="assets/img/icons8-facebook-192.png" alt="facebook">
+                </div>
                 <div></div>
                 <div></div>
                 <div></div>
