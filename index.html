@@ -20,7 +20,7 @@
 
         header{
             background: #000000;
-            position: fixed;
+            position: absolute;
             width: 100%;
             top: 0;
             left: 0;
@@ -196,8 +196,24 @@
             margin: auto;
             transform: rotate(270deg);
         }
-        main>section:nth-child(2)>section:first-child{
-
+        #s1{
+            width: 180px;
+            height: 495px;
+            display: grid;
+            grid-template-rows: repeat(2,1fr);
+            grid-template-columns: repeat(1,1fr);
+            gap: 10px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background: rgba(236, 118, 118, 0);
+        }
+        #s1_d1_img{
+            height: 240px;
+        }
+        #s1_d2_img{
+            height: 240px;
         }
 
         /*-------------section 3-------------*/
@@ -325,23 +341,43 @@
             <h2>ABOUT</h2>
             <h2>Me</h2>
         </div>
+
+
         <span></span>
-        <section>
-            <div>
-                <img src="assets/img/section2/2dba5c38-e53d-4c72-a6b9-b816ca485fa3.JPG" alt="">
+
+
+        <section id="s1">
+
+            <div id="s1_d1">
+                <img id="s1_d1_img" src="assets/img/section2/2dba5c38-e53d-4c72-a6b9-b816ca485fa3.JPG" alt="">
             </div>
-            <div><img src="assets/img/section2/IMG-0644.JPG" alt=""></div>
+
+            <div id="s1_d2">
+                <img id="s1_d2_img" src="assets/img/section2/IMG-0644.JPG" alt="">
+            </div>
+
         </section>
-        <section>
-            <div>
-                <img src="assets/img/section2/photo_2022-07-17_12-31-43.jpg" alt="">
+
+
+        <!--<section id="s2">
+
+            <div id="s2/d1">
+                <img id="s2/d1/img" src="assets/img/section2/photo_2022-07-17_12-31-43.jpg" alt="">
             </div>
-            <div>
-                <img src="assets/img/section2/IMG-4913.jpg" alt="">
+
+            <div id="s2/d2">
+                <img id="s2/d2/img" src="assets/img/section2/IMG-4913.jpg" alt="">
             </div>
-        </section>
+
+        </section>-->
+
+
         <section></section>
+
+
         <section></section>
+
+
     </section>
 
     <!--section 3-->
