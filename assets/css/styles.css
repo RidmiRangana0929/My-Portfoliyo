@@ -135,6 +135,7 @@ main>section:first-child>div>button{
     border-radius: 20px;
     color: #ffffff;
     background: #079992;
+    border: #079992;
     width: 167px;
     height: 35px;
     position: absolute;
@@ -803,6 +804,7 @@ main>section:nth-child(4)>span{
 }
 #s4_s1_s1_d1{
     background: white;
+
 }
 #s4_s1_s1_d1>img{
     position: absolute;
@@ -957,34 +959,68 @@ main>section:nth-child(4)>span{
     margin: auto;
     background: rgba(255, 255, 255, 0);
 }
+#s4_s2_s1_d1{
+    background: #11141B;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px #2a2f47, 2px 2px 5px black;
+}
 #s4_s2_s1_d1_img{
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
+}
+#s4_s2_s1_d2{
+    background: #11141B;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px #2a2f47, 2px 2px 5px black;
 }
 #s4_s2_s1_d2_img{
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
 }
-
+#s4_s2_s1_d3{
+    background: #11141B;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px #2a2f47, 2px 2px 5px black;
+}
 #s4_s2_s1_d3_img{
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
+}
+#s4_s2_s1_d4{
+    background: #11141B;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px #2a2f47, 2px 2px 5px black;
 }
 #s4_s2_s1_d4_img{
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
+}
+#s4_s2_s1_d5{
+    background: #11141B;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px #2a2f47, 2px 2px 5px black;
 }
 #s4_s2_s1_d5_img{
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
+}
+#s4_s2_s1_d6{
+    background: #11141B;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px #2a2f47, 2px 2px 5px black;
 }
 #s4_s2_s1_d6_img{
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
+}
+#s4_s2_s1_d7{
+    background: #11141B;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px #2a2f47, 2px 2px 5px black;
 }
 #s4_s2_s1_d7_img{
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
 }
 #s4_s2_img{
     position: absolute;
