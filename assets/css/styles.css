@@ -1350,6 +1350,41 @@ main>section:nth-child(6){
     border: 0;
     margin: auto;
 }
+main>section:nth-child(6)>div{
+    background: #079992;
+    width: 595px;
+    height: 55px;
+    position: absolute;
+    top: 22px;
+    right: 0;
+    margin: auto;
+}
+main>section:nth-child(6)>div>h2:first-child{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    margin-left: 98px;
+    font-size: 3.4em;
+}
+main>section:nth-child(6)>div>h2:nth-child(2){
+    color: #ffffff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 1.8em;
+    margin-top: -56px;
+    margin-bottom: 10px;
+    margin-left: 394px;
+}
+main>section:nth-child(6)>span{
+    border-top: 45px solid #11141B;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    position: absolute;
+    top: 27px;
+    right: 546px;
+    margin: auto;
+    transform: rotate(270deg);
+}
 
 /*-------------section 7-------------*/
 main>section:nth-child(7){
