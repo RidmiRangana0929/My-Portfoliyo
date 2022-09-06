@@ -14,8 +14,8 @@ body{
 }
 
 header{
-    background: #000000;
-    position: absolute;
+    background: rgba(0, 0, 0, 0.86);
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
