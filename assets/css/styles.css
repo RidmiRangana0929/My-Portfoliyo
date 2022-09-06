@@ -1493,8 +1493,17 @@ main>section:nth-child(6)>span{
     0%{
         transform: rotate(0deg);
     }
-    100%{
+    25%{
         transform: rotate(405deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(405deg);
+    }
+    100%{
+        transform: rotate(0deg);
     }
 
 }
@@ -1510,7 +1519,7 @@ main>section:nth-child(6)>span{
     right: 0;
     left: 0;
     margin: auto;
-    animation: myfirst 10s infinite linear;
+    animation: myfirst 15s infinite linear;
 }
 #s6_s2_d2{
     width: 70px;
@@ -1524,7 +1533,7 @@ main>section:nth-child(6)>span{
     right: 0;
     left: 0;
     margin: auto;
-    animation: myfirst 10s infinite linear;
+    animation: myfirst 15s infinite linear;
 }
 #s6_s3_d2{
     width: 70px;
@@ -1538,7 +1547,7 @@ main>section:nth-child(6)>span{
     right: 0;
     left: 0;
     margin: auto;
-    animation: myfirst 10s infinite linear;
+    animation: myfirst 15s infinite linear;
 }
 
 /*-------------section 7-------------*/
