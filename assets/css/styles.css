@@ -1385,6 +1385,41 @@ main>section:nth-child(6)>span{
     margin: auto;
     transform: rotate(270deg);
 }
+#s6_s1{
+    width: 355px;
+    height: 314px;
+    background: #11141B;
+    position: absolute;
+    top: 215px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #2a2f47, 3px 3px 7px black;
+}
+#s6_s2{
+    width: 355px;
+    height: 314px;
+    background: #11141B;
+    position: absolute;
+    top: 215px;
+    left: 165px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #2a2f47, 3px 3px 7px black;
+}
+#s6_s3{
+    width: 355px;
+    height: 314px;
+    background: #11141B;
+    position: absolute;
+    top: 215px;
+    right: 165px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #2a2f47, 3px 3px 7px black;
+}
+
 
 /*-------------section 7-------------*/
 main>section:nth-child(7){
