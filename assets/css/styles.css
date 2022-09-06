@@ -1489,6 +1489,58 @@ main>section:nth-child(6)>span{
     transform: rotate(315deg);
 }
 
+@keyframes myfirst {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(405deg);
+    }
+
+}
+#s6_s1_d2{
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border: 2px solid #079992;
+    /*transform: rotate(45deg);*/
+    border-radius: 15px;
+    position: absolute;
+    top: 43px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    animation: myfirst 10s infinite linear;
+}
+#s6_s2_d2{
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border: 2px solid #079992;
+    /*transform: rotate(45deg);*/
+    border-radius: 15px;
+    position: absolute;
+    top: 43px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    animation: myfirst 10s infinite linear;
+}
+#s6_s3_d2{
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border: 2px solid #079992;
+    /*transform: rotate(45deg);*/
+    border-radius: 15px;
+    position: absolute;
+    top: 43px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    animation: myfirst 10s infinite linear;
+}
+
 /*-------------section 7-------------*/
 main>section:nth-child(7){
     background: #000000;
