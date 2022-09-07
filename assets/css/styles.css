@@ -169,7 +169,6 @@ main>section:first-child>div>button:hover{
     left: 0;
     margin: auto;
     cursor: pointer;
-    caret-color: #079992;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
     inset -4px -4px 6px -1px rgba(225,225,225,0.7),
     -0.5px -0.5px 0px rgba(225,225,225,1),
@@ -391,6 +390,28 @@ main>section:nth-child(2)>span{
     right: 88px;
     margin: auto;
     border: #11141B;
+}
+#s2_btn:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    border-radius: 20px;
+    color: #ffffff;
+    background: #079992;
+    width: 167px;
+    height: 35px;
+    position: absolute;
+    top: 670px;
+    right: 88px;
+    margin: auto;
+    border: #11141B;
+    cursor: pointer;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(225,225,225,0.7),
+    -0.5px -0.5px 0px rgba(225,225,225,1),
+    0.5px 0.5px 0px rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.5);
+    transform: translateY(2px);
 }
 
 
