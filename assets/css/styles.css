@@ -32,10 +32,19 @@ header>nav>ul{
 }
 header>nav>ul>li{
     display: inline-block;
-    padding: 10px;
+    padding: 10px 10px 5px;
     color: #FFFFFF;
     font-family: 'Cantarell', sans-serif;
     list-style: none;
+}
+header>nav>ul>li:hover{
+    display: inline-block;
+    padding: 10px 10px 5px;
+    color: #FFFFFF;
+    font-family: 'Cantarell', sans-serif;
+    list-style: none;
+    border-bottom: 3px solid #079992;
+    cursor: pointer;
 }
 main{
     position: relative;
@@ -131,11 +140,28 @@ main>section:first-child>div>section>div:nth-child(6)>img{
 main>section:first-child>div>button{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1em;
     border-radius: 20px;
     color: #ffffff;
     background: #079992;
     border: #079992;
+    width: 167px;
+    height: 35px;
+    position: absolute;
+    top: 242px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+main>section:first-child>div>button:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 20px;
+    color: #079992;
+    background: rgb(0, 0, 0);
+    border: 3px solid #079992;
+    cursor: pointer;
     width: 167px;
     height: 35px;
     position: absolute;
