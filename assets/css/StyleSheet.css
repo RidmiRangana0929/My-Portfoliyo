@@ -1610,3 +1610,31 @@ main>section:nth-child(8){
     border: 0;
     margin: auto;
 }
+/*@media all and (max-width: ){
+
+}*/
+
+/*@media all and (max-width: 320px){
+    header{
+        width: 320px;
+        height: 25px;
+    }
+    header>nav{
+        padding: 0px;
+        left: 5px;
+    }
+    header>nav>ul{
+        width: 320px;
+        padding: 0;
+    }
+    header>nav>ul>li{
+        padding-left: 9px;
+        font-size: 0.5em;
+    }
+    main>section:first-child{
+        width: 320px;
+    }
+    main>section:first-child>img{
+        height: 50%;
+    }
+}*/
