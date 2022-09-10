@@ -99,67 +99,49 @@ main>section:first-child>div>section{
     margin: auto;
     background: rgba(142, 0, 0, 0);
 }
+
 main>section:first-child>div>section>div:nth-child(1){
     background: black;
 }
-main>section:first-child>div>section>div:nth-child(1)>i{
-    color: white;
-    font-size: 25px;
-}
-
 main>section:first-child>div>section>div:nth-child(1)>img{
     height: 30px;
 }
+
 main>section:first-child>div>section>div:nth-child(2){
     background: black;
-}
-main>section:first-child>div>section>div:nth-child(2)>i{
-    color: white;
-    font-size: 25px;
 }
 main>section:first-child>div>section>div:nth-child(2)>img{
     height: 30px;
 }
+
 main>section:first-child>div>section>div:nth-child(3){
     background: black;
-}
-main>section:first-child>div>section>div:nth-child(3)>i{
-    color: white;
-    font-size: 25px;
 }
 main>section:first-child>div>section>div:nth-child(3)>img{
     height: 30px;
 }
+
 main>section:first-child>div>section>div:nth-child(4){
     background: black;
 }
 main>section:first-child>div>section>div:nth-child(4)>img{
     height: 30px;
 }
-main>section:first-child>div>section>div:nth-child(4)>i{
-    color: white;
-    font-size: 25px;
-}
+
 main>section:first-child>div>section>div:nth-child(5){
     background: black;
 }
 main>section:first-child>div>section>div:nth-child(5)>img{
     height: 30px;
 }
-main>section:first-child>div>section>div:nth-child(5)>i{
-    color: white;
-    font-size: 25px;
-}
+
 main>section:first-child>div>section>div:nth-child(6){
     background: black;
 }
 main>section:first-child>div>section>div:nth-child(6)>img{
     height: 30px;
 }
-main>section:first-child>div>section>div:nth-child(6)>i{
-    color: white;
-    font-size: 25px;
-}
+
 main>section:first-child>div>button{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
