@@ -54,7 +54,7 @@ body>main>section>section>section:nth-child(1)>section:nth-child(1)>h5{
     width: 15vw;
     background: white;
     border-radius: 5px;
-    box-shadow: 3px 3px 5px #bcbcc9;
+    box-shadow: 3px 3px 7px #dcdce8;
 }
 #timeDiv>h6{
     position: absolute;
@@ -70,6 +70,33 @@ body>main>section>section>section:nth-child(1)>section:nth-child(1)>h5{
     font-size: 15px;
     color: #000000;
 }
+#row2{
+    height: 14.8vh;
+    grid-gap: 5vw;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 20px;
+}
+#box1,#box2,#box3,#box4{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px #dcdce8;
+}
+#t1,#t2,#t3,#t4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.88em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#v1,#v2,#v3,#v4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2em;
+    color: #9264E1;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
 
 
 
