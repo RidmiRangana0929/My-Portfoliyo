@@ -28,6 +28,48 @@ body>main>section{
     height: 94vh;
     background-color: #ffffff;
 }
+/*container*/
+body>main>section>section{
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 94vh;
+    background-color: #ffffff;
+}
+/*1st row*/
+body>main>section>section>section:nth-child(1){
+    height: 60px;
+}
+body>main>section>section>section:nth-child(1)>section:nth-child(1)>h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    padding-top: 2.5vh;
+}
+#timeDiv{
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    text-align: center;
+    height: 5vh;
+    width: 15vw;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #bcbcc9;
+}
+#timeDiv>h6{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    margin-top: 11px!important;
+    margin-left: 18px!important;
+}
+#timeDiv>i{
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    font-size: 15px;
+    color: #000000;
+}
 
 
 
