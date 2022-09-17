@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+body>main{
+    background: #F8F8F8;
+    width: 100vw;
+    height: 100vh;
+}
 /*navigation bar*/
 .nav-link {
     display: block;
@@ -11,7 +15,7 @@
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
-#home1{
+#focus{
     color: #9264E1 !important;
 }
 .nav-link:focus, .nav-link:hover{
