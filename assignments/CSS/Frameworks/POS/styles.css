@@ -86,14 +86,16 @@ body>main>section>section>section:nth-child(1)>section:nth-child(1)>h5{
     font-family: 'Poppins', sans-serif;
     font-size: 0.88em;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 #v1,#v2,#v3,#v4{
     font-family: 'Poppins', sans-serif;
     font-size: 2.2em;
     color: #9264E1;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 15vw;
 }
 
 
