@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /*navigation bar*/
 .nav-link {
     display: block;
@@ -10,9 +11,11 @@
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
+#home1{
+    color: #9264E1 !important;
+}
 .nav-link:focus, .nav-link:hover{
     color: #9264E1;
-    border-bottom: #9264E1 solid 2px;
 }
 body>main>section{
     position: relative;
@@ -21,6 +24,7 @@ body>main>section{
     height: 94vh;
     background-color: #ffffff;
 }
+
 
 
 
