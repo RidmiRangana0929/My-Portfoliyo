@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#customerContent{
+    display: none;
+}
 body>main{
     background: #F8F8F8;
     width: 100vw;
