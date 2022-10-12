@@ -165,6 +165,38 @@ body>main>section>section{
     visibility: visible;
     opacity: 1;
 }
+#pb3:hover #HS3{
+    visibility: visible;
+    opacity: 1;
+}
+#pb4:hover #HS4{
+    visibility: visible;
+    opacity: 1;
+}
+#pb5:hover #HS5{
+    visibility: visible;
+    opacity: 1;
+}
+#pb6:hover #HS6{
+    visibility: visible;
+    opacity: 1;
+}
+#pb7:hover #HS7{
+    visibility: visible;
+    opacity: 1;
+}
+#pb8:hover #HS8{
+    visibility: visible;
+    opacity: 1;
+}
+#pb9:hover #HS9{
+    visibility: visible;
+    opacity: 1;
+}
+#pb10:hover #HS10{
+    visibility: visible;
+    opacity: 1;
+}
 
 #HS1{
     width: 15vw;
@@ -189,45 +221,45 @@ body>main>section>section{
     height: 5vh !important;
     background-color: #9264E1;
     position: absolute;
-    left: 59.5%;
-    /*visibility: hidden;
-    opacity: 0;*/
+    left: 73.5%;
+    visibility: hidden;
+    opacity: 0;
 }
 #HS4{
     width: 15vw;
     height: 5vh !important;
     background-color: #9264E1;
     position: absolute;
-    left: 59.5%;
-    /*visibility: hidden;
-    opacity: 0;*/
+    left: 43.1%;
+    visibility: hidden;
+    opacity: 0;
 }
 #HS5{
     width: 15vw;
     height: 5vh !important;
     background-color: #9264E1;
     position: absolute;
-    left: 59.5%;
-    /*visibility: hidden;*/
-    /*opacity: 0;*/
+    left: 49.2%;
+    visibility: hidden;
+    opacity: 0;
 }
 #HS6{
     width: 15vw;
     height: 5vh !important;
     background-color: #9264E1;
     position: absolute;
-    left: 59.5%;
-    /*visibility: hidden;*/
-    /*opacity: 0;*/
+    left: 68.3%;
+    visibility: hidden;
+    opacity: 0;
 }
 #HS7{
     width: 15vw;
     height: 5vh !important;
     background-color: #9264E1;
     position: absolute;
-    left: 59.5%;
-    /*visibility: hidden;*/
-    /*opacity: 0;*/
+    left: 39.6%;
+    visibility: hidden;
+    opacity: 0;
 }
 #HS8{
     width: 15vw;
@@ -235,42 +267,38 @@ body>main>section>section{
     background-color: #9264E1;
     position: absolute;
     left: 59.5%;
-    /*visibility: hidden;*/
-    /*opacity: 0;*/
+    visibility: hidden;
+    opacity: 0;
 }
 #HS9{
     width: 15vw;
     height: 5vh !important;
     background-color: #9264E1;
     position: absolute;
-    left: 59.5%;
-    /*visibility: hidden;*/
-    /*opacity: 0;*/
+    left: 71.7%;
+    visibility: hidden;
+    opacity: 0;
 }
 #HS10{
     width: 15vw;
     height: 5vh !important;
     background-color: #9264E1;
     position: absolute;
-    left: 59.5%;
-    /*visibility: hidden;*/
-    /*opacity: 0;*/
+    left: 61.3%;
+    visibility: hidden;
+    opacity: 0;
 }
 
-#H1,#H3,#H5,#H7,#H9{
+#H1,#H3,#H5,#H7,#H9,#H11,#H13,#H15,#H17,#H19{
     margin-top: 1.5%;
     font-family: 'Poppins', sans-serif !important;
     font-size: 1.3em;
-
-
+    font-weight: bold;
 }
-#H2,#H4,#H6,#H8,#H10{
-    margin-top: -2%;
+#H2,#H4,#H6,#H8,#H10,#H12,#H14,#H16,#H18,#H20{
+    margin-top: -3%;
     font-family: 'Poppins', sans-serif !important;
     font-size: 0.9em;
-
-    /*visibility: hidden;
-    opacity: 0;*/
 }
 #tr1,#tr2,#tr3,#tr4,#tr5,#tr6,#tr7,#tr8,#tr9,#tr10{
     border-top: 8px solid #9264E1;
