@@ -324,7 +324,7 @@ body>main>section>section{
 }
 
 #cb1{
-    height: 88vh;
+    height: 59vh;
     width: 29vw;
     position: absolute;
     top: 3%;
@@ -336,12 +336,81 @@ body>main>section>section{
 #cusId,#cusName,#cusAddress,#cusSalary{
     position: relative;
     left: 4%;
-    color: #9264E1!important;
+    color: #727272 !important;
 }
 
 #CustomerID,#CustomerName,#CustomerAddress,#CustomerSalary{
     width: 92%;
-    height: 5% !important;
+    height: 8% !important;
     position: absolute;
     left: 4%;
+}
+
+#c1,#c2,#c3,#c4,#c5{
+    padding: 0 !important;
+    width: 25% !important;
+}
+
+#btnCusSave{
+    width: 100% !important;
+    padding: 0 !important;
+    border-color: #079992 !important;
+    color: #079992 !important;
+}
+#btnCusUpdate{
+    width: 100% !important;
+    padding: 0 !important;
+    border-color: #4a69bd !important;
+    color: #4a69bd !important;
+}
+#btnCusGetAll{
+    width: 100% !important;
+    padding: 0 !important;
+    border-color: #f0932b !important;
+    color: #f0932b;
+}
+#btnCusRemove{
+    width: 100% !important;
+    padding: 0 !important;
+    border-color: #f53b57 !important;
+    color: #f53b57 !important;
+}
+#btnCusClearAll{
+    width: 100% !important;
+    padding: 0 !important;
+    border-color: #9264E1 !important;
+    color: #9264E1 !important;
+}
+
+#btnCusSave:hover{
+    background-color: #079992 !important;
+    border-color: #079992 !important;
+    color: #ffffff !important;
+}
+#btnCusUpdate:hover{
+    background-color: #4a69bd !important;
+    border-color: #4a69bd !important;
+    color: #ffffff !important;
+}
+#btnCusGetAll:hover{
+    background-color: #f0932b !important;
+    border-color: #f0932b !important;
+    color: #ffffff !important;
+}
+#btnCusRemove:hover{
+    background-color: #f53b57 !important;
+    border-color: #f53b57 !important;
+    color: #ffffff !important;
+}
+#btnCusClearAll:hover{
+    background-color: #9264E1 !important;
+    border-color: #9264E1 !important;
+    color: #ffffff !important;
+}
+
+.topic{
+    color: #9264E1;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 20%;
 }
