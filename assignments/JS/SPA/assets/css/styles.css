@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-#customerContent{
+#customerContent,#itemContent,#orderContent{
     display: none;
 }
 body>main{
@@ -28,7 +28,7 @@ body>main{
 body>main>section{
     position: relative;
     top: 0.5vh;
-    width: 99vw;
+    width: 98.4vw;
     height: 94vh;
     background-color: #ffffff;
 }
