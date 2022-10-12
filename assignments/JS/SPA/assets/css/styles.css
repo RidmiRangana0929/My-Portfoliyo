@@ -333,6 +333,15 @@ body>main>section>section{
     box-shadow: 3px 3px 10px #dcdce8;
 }
 
-#cusId{
+#cusId,#cusName,#cusAddress,#cusSalary{
+    position: relative;
+    left: 4%;
     color: #9264E1!important;
+}
+
+#CustomerID,#CustomerName,#CustomerAddress,#CustomerSalary{
+    width: 92%;
+    height: 5% !important;
+    position: absolute;
+    left: 4%;
 }
