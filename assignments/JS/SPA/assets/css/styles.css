@@ -318,3 +318,21 @@ body>main>section>section{
 
 
 /*==============================*/
+
+#cc1,#cc2{
+    background-color: #ffffff;
+}
+
+#cb1{
+    height: 88vh;
+    width: 29vw;
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #dcdce8;
+}
+
+#cusId{
+    color: #9264E1!important;
+}
