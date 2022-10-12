@@ -13,22 +13,22 @@
 <!--header with navigation-->
 <header>
 
-    <!--<ul class="nav justify-content-end" style="background-color: #ffffff !important;">
+    <ul class="nav justify-content-end" style="background-color: #ffffff !important;">
         <li class="nav-item">
 
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Customers</a>
+            <a class="nav-link active" aria-current="page" href="#" id="customer">Customers</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Items</a>
+            <a class="nav-link active" aria-current="page" href="#" id="item">Items</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Orders</a>
+            <a class="nav-link active" aria-current="page" href="#" id="order">Orders</a>
         </li>
-    </ul>-->
-    <ul class="nav justify-content-end">
+    </ul>
+    <!--<ul class="nav justify-content-end">
         <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -41,11 +41,11 @@
         <li class="nav-item">
             <a class="nav-link" href="#">Orders</a>
         </li>
-    </ul>
+    </ul>-->
 </header>
 
 <!--dashboard-->
-<main>
+<main class="container-fluid " id="homeContent">
     <section>
         <section class="container">
 
@@ -289,7 +289,14 @@
     </section>
 </main>
 
-<script src=../../../assets/bootstrap/js/bootstrap.min.js></script>
-<!--<script src=../../../../assets/bootstrap/js/bootstrap.min.js></script>-->
+<!--customer-->
+<main>
+    <section class="row">
+        <section class="col-6" style="background-color: #8e0000"></section>
+        <section class="col-6"></section>
+    </section>
+</main>
+
+<script src=assets/js/bootstrap.min.js></script>
 </body>
 </html>

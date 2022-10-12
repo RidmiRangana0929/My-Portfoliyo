@@ -24,7 +24,7 @@ body>main{
 body>main>section{
     position: relative;
     top: 0.5vh;
-    width: 100vw;
+    width: 99vw;
     height: 94vh;
     background-color: #ffffff;
 }
