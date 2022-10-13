@@ -51,6 +51,20 @@ $("#btnCusRemove").click(function () {
     }
 });
 
+/*--------search with enter----------*/
+$("#CustomerID").on('keyup', function (event) {
+    if (event.code == "Enter") {
+        let Id = $("#CustomerID").val();
+        let customer = searchCustomer(Id);
+        if (customer != null) {
+            setTextfieldValues(customer.id, customer.name, customer.address, customer.salary);
+        } else {
+            alert("There is no customer available for that " + Id + ".");
+            setTextfieldValues("", "", "", "");
+        }
+    }
+});
+
 
 /*--------load all----------*/
 function loadAllCustomers(){
