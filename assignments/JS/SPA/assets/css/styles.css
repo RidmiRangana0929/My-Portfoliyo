@@ -453,6 +453,7 @@ body>main>section>section{
 
 #ic1,#ic2{
     background-color: #ffffff;
+    height: 70% !important;
 }
 
 #ib1{
@@ -583,6 +584,7 @@ body>main>section>section{
 
 #imgRow{
     height: 30% !important;
+    margin: 0 !important;
 }
 
 
