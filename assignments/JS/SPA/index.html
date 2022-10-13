@@ -526,6 +526,54 @@
             <section id="ordBox2">
                 <h4 class="topic4">Item Details</h4>
                 <br><br>
+                <section class="row">
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Item</label>
+                            <select class="form-control" id="selectItemCode"></select>
+                            <span class="control-error"
+                                  id="item-empty-error"></span>
+                        </div>
+                    </section>
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Item Name</label>
+                            <input class="form-control" id="txtItemDescription" type="text">
+                        </div>
+                    </section>
+                </section>
+                <section class="row">
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label class="">Quantity On Hand</label>
+                            <input class="form-control" id="txtQTYOnHand" type="text">
+                        </div>
+                    </section>
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label class="">Price</label>
+                            <input class="form-control" id="txtItemPrice" type="text">
+                        </div>
+                    </section>
+                </section>
+                <section class="row">
+                    <section class="col-3"></section>
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Order Quantity</label>
+                            <input class="form-control" id="txtQty" min="1" type="number">
+                            <span class="control-error" id="order-qty-empty-error"></span>
+                        </div>
+                    </section>
+                    <section class="col-3"></section>
+                </section>
+                <section class="row">
+                    <section class="col-3"></section>
+                    <section class="col-6">
+                        <button type="button" class="btn btn-primary btn-sm" id="addToCart">Add To Cart</button>
+                    </section>
+                    <section class="col-3"></section>
+                </section>
             </section>
         </section>
         <section class="col-4" style="background-color: #ffffff;height: 100%!important;">

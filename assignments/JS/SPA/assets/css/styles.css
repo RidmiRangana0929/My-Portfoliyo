@@ -667,6 +667,29 @@ body>main>section>section{
     border-bottom: 2px solid #9264E1;
 }
 
+#addToCart{
+    padding: 2% !important;
+    position: relative;
+    margin: auto;
+    left: 22%;
+    top: 48%;
+    background-color: #9264E1 !important;
+    border-color: #9264E1 !important;
+    color: #ffffff !important;
+    width: 60% !important;
+}
+#addToCart:hover{
+    padding: 2% !important;
+    position: relative;
+    margin: auto;
+    left: 22%;
+    top: 48%;
+    background-color: #5e3199 !important;
+    border-color: #5e3199 !important;
+    color: #ffffff !important;
+    width: 60% !important;
+}
+
 
 
 
