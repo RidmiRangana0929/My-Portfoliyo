@@ -15,7 +15,10 @@ $("#btnCusSave").click(function (){
 
     loadAllCustomers();
 
+    clearText();
+
     bindRowClickEvents();
+
 });
 
 /*--------btn update----------*/
@@ -29,6 +32,9 @@ $("#btnCusUpdate").click(function () {
         alert("Something Wrong! Try Again!");
 
     }
+
+    clearText();
+
 });
 
 /*--------btn get all----------*/
@@ -52,6 +58,10 @@ $("#btnCusRemove").click(function () {
 });
 
 /*--------btn clear all----------*/
+$('#btnCusClearAll').click(function () {
+    clearText();
+});
+
 
 
 
@@ -96,6 +106,10 @@ function bindRowClickEvents() {
         $('#CustomerSalary').val(salary);
 
     });
+}
+
+function clearText(){
+    $('#CustomerID,#CustomerName,#CustomerAddress,#CustomerSalary').val("");
 }
 
 function setTextFieldValues(id, name, address, salary) {
