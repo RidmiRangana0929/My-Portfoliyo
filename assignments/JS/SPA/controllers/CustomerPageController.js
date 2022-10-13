@@ -19,6 +19,8 @@ $("#btnCusSave").click(function (){
 
     bindRowClickEvents();
 
+    loadAllCustomersForComboBox();
+
 });
 
 /*--------btn update----------*/

@@ -18,6 +18,8 @@ $("#btnItmAdd").click(function (){
     clearText2();
 
     bindRowClickEvents2();
+
+    loadAllItemsForComboBox();
 });
 
 /*--------search with enter----------*/
