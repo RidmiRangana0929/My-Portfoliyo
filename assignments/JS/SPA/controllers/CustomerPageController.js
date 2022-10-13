@@ -51,6 +51,10 @@ $("#btnCusRemove").click(function () {
     }
 });
 
+/*--------btn clear all----------*/
+
+
+
 /*--------search with enter----------*/
 $("#CustomerID").on('keyup', function (event) {
     if (event.code == "Enter") {
