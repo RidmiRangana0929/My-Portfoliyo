@@ -36,8 +36,20 @@ $("#btnCusGetAll").click(function () {
     loadAllCustomers();
 });
 
-/*--------btn update----------*/
+/*--------btn remove----------*/
+$("#btnCusRemove").click(function () {
+    let removeId = $("#CustomerID").val();
 
+    let option = confirm("Do you want to delete " + removeId + " Customer ?");
+    if (option){
+        if (removeCustomer(removeId)) {
+            alert("Customer Deleted Successfully..!");
+            setTextfieldValues("", "", "", "");
+        } else {
+            alert("Something Wrong! Check Customer Id and Try Again!");
+        }
+    }
+});
 
 
 /*--------load all----------*/
@@ -95,6 +107,18 @@ function updateCustomer(customerID) {
         customer.name = $("#CustomerName").val();
         customer.address = $("#CustomerAddress").val();
         customer.salary = $("#CustomerSalary").val();
+        loadAllCustomers();
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function removeCustomer(customerID) {
+    let customer = searchCustomer(customerID);
+    if (customer != null) {
+        let indexNumber = customers.indexOf(customer);
+        customers.splice(indexNumber, 1);
         loadAllCustomers();
         return true;
     } else {
