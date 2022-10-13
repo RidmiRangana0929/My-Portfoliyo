@@ -24,7 +24,7 @@ $("#btnCusUpdate").click(function () {
     let response = updateCustomer(customerID);
     if (response) {
         alert("Customer Details Updated Successfully..!");
-        setTextfieldValues("", "", "", "");
+        setTextFieldValues("", "", "", "");
     } else {
         alert("Something Wrong! Try Again!");
 
@@ -44,7 +44,7 @@ $("#btnCusRemove").click(function () {
     if (option){
         if (removeCustomer(removeId)) {
             alert("Customer Deleted Successfully..!");
-            setTextfieldValues("", "", "", "");
+            setTextFieldValues("", "", "", "");
         } else {
             alert("Something Wrong! Check Customer Id and Try Again!");
         }
@@ -61,10 +61,10 @@ $("#CustomerID").on('keyup', function (event) {
         let Id = $("#CustomerID").val();
         let customer = searchCustomer(Id);
         if (customer != null) {
-            setTextfieldValues(customer.id, customer.name, customer.address, customer.salary);
+            setTextFieldValues(customer.id, customer.name, customer.address, customer.salary);
         } else {
-            alert("There is no customer available for that " + Id + ".");
-            setTextfieldValues("", "", "", "");
+            alert("There is no customer available for id " + Id + ".");
+            setTextFieldValues("", "", "", "");
         }
     }
 });
@@ -76,9 +76,6 @@ function loadAllCustomers(){
     $("#tblCustomer").empty();
 
     for (var customer of customers){
-/*
-        var row =  '<tr><td>'+customer.id+'</td><td>'+customer.name+'</td><td>'+customer.address+'</td><td>'+customer.salary+'</td></tr>';
-*/
         var row=`<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td><td>${customer.salary}</td></tr>`;
         $("#tblCustomer").append(row);
     }
@@ -101,7 +98,7 @@ function bindRowClickEvents() {
     });
 }
 
-function setTextfieldValues(id, name, address, salary) {
+function setTextFieldValues(id, name, address, salary) {
     $("#CustomerID").val(id);
     $("#CustomerName").val(name);
     $("#CustomerAddress").val(address);

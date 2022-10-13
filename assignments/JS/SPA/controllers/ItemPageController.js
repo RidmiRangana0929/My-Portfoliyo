@@ -18,6 +18,20 @@ $("#btnItmAdd").click(function (){
     bindRowClickEvents2();
 });
 
+/*--------search with enter----------*/
+$("#ItemCode").on('keyup', function (event) {
+    if (event.code == "Enter") {
+        let Code = $("#ItemCode").val();
+        let item = searchItem(Code);
+        if (item != null) {
+            setTextFieldValues2(item.code, item.name, item.qty, item.price);
+        } else {
+            alert("There is no item available for code " + Code + ".");
+            setTextFieldValues2("", "", "", "");
+        }
+    }
+});
+
 /*--------load all----------*/
 function loadAllItems(){
 
@@ -44,4 +58,20 @@ function bindRowClickEvents2() {
         $('#ItemPrice').val(salary);
 
     });
+}
+
+function setTextFieldValues2(code, name, qty, price) {
+    $("#ItemCode").val(code);
+    $("#ItemName").val(name);
+    $("#ItemQty").val(qty);
+    $("#ItemPrice").val(price);
+}
+
+function searchItem(itmID) {
+    for (let item of items) {
+        if (item.code == itmID) {
+            return item;
+        }
+    }
+    return null;
 }
