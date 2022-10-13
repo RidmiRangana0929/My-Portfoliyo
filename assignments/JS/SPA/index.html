@@ -473,7 +473,7 @@
                 <section class="row">
                     <section class="col-6">
                         <div class="form-group">
-                            <label>Order Id</label>
+                            <label style="color: #727272 !important;">Order Id</label>
                             <input class="form-control" id="txtOrderID" type="text">
                             <span class="control-error"
                                   id="orderId-invalid-error"></span>
@@ -484,13 +484,13 @@
                 <section class="row">
                     <section class="col-6">
                         <div class="form-group">
-                            <label>Date</label>
+                            <label style="color: #727272 !important;">Date</label>
                             <input class="form-control" id="txtDate" type="date">
                         </div>
                     </section>
                     <section class="col-6">
                         <div class="form-group">
-                            <label>Customer Id</label>
+                            <label style="color: #727272 !important;">Customer Id</label>
                             <select class="form-control" id="selectCusID">
                             </select>
                             <span class="control-error"
@@ -501,13 +501,13 @@
                 <section class="row">
                     <section class="col-6">
                         <div class="form-group">
-                            <label>Customer Name</label>
+                            <label style="color: #727272 !important;">Customer Name</label>
                             <input class="form-control" id="orderCustomerName" type="text">
                         </div>
                     </section>
                     <section class="col-6">
                         <div class="form-group">
-                            <label>Customer Salary</label>
+                            <label style="color: #727272 !important;">Customer Salary</label>
                             <input class="form-control" id="orderCustomerSalary" type="text">
                         </div>
                     </section>
@@ -515,7 +515,7 @@
                 <section class="row">
                     <section class="col-12">
                         <div class="form-group">
-                            <label>Customer Address</label>
+                            <label style="color: #727272 !important;">Customer Address</label>
                             <input class="form-control" id="orderCustomerAddress" type="text">
                         </div>
                     </section>
@@ -529,7 +529,7 @@
                 <section class="row">
                     <section class="col-6">
                         <div class="form-group">
-                            <label>Item</label>
+                            <label style="color: #727272 !important;">Item</label>
                             <select class="form-control" id="selectItemCode"></select>
                             <span class="control-error"
                                   id="item-empty-error"></span>
@@ -537,7 +537,7 @@
                     </section>
                     <section class="col-6">
                         <div class="form-group">
-                            <label>Item Name</label>
+                            <label style="color: #727272 !important;">Item Name</label>
                             <input class="form-control" id="txtItemDescription" type="text">
                         </div>
                     </section>
@@ -545,13 +545,13 @@
                 <section class="row">
                     <section class="col-6">
                         <div class="form-group">
-                            <label class="">Quantity On Hand</label>
+                            <label class="" style="color: #727272 !important;">Quantity On Hand</label>
                             <input class="form-control" id="txtQTYOnHand" type="text">
                         </div>
                     </section>
                     <section class="col-6">
                         <div class="form-group">
-                            <label class="">Price</label>
+                            <label class="" style="color: #727272 !important;">Price</label>
                             <input class="form-control" id="txtItemPrice" type="text">
                         </div>
                     </section>
@@ -560,7 +560,7 @@
                     <section class="col-3"></section>
                     <section class="col-6">
                         <div class="form-group">
-                            <label>Order Quantity</label>
+                            <label style="color: #727272 !important;">Order Quantity</label>
                             <input class="form-control" id="txtQty" min="1" type="number">
                             <span class="control-error" id="order-qty-empty-error"></span>
                         </div>
@@ -577,7 +577,50 @@
             </section>
         </section>
         <section class="col-4" style="background-color: #ffffff;height: 100%!important;">
-            <section id="ordBox3"></section>
+            <section id="ordBox3">
+                <br>
+                <section class="row">
+                    <section class="col-3"></section>
+                    <section class="col-6" style="align-content: center!important;text-align: center!important;">
+                        <span class="" id="total-text">Total : Rs.</span><span id="total">00.00</span>
+                    </section>
+                    <section class="col-3"></section>
+                </section>
+                <br><br>
+                <section class="row">
+                    <section class="col-6">
+                        <div class="form-group">
+                        <label style="color: #727272 !important;">Cash</label>
+                        <input class="form-control" id="txtCash" min="0" type="number">
+                        <span class="control-error"
+                              id="cash-empty-error"></span>
+                        </div>
+                    </section>
+                    <section class="col-6">
+                            <div class="form-group">
+                                <label style="color: #727272 !important;">Discount</label>
+                                <input class="form-control" id="txtDiscount" min="0" type="number">
+                            </div>
+                    </section>
+                </section>
+                <section class="row">
+                    <section class="col-3"></section>
+                    <section class="col-6" style="align-content: center!important;">
+                        <div class="form-group">
+                            <label style="color: #727272 !important;">Balance</label>
+                            <input class="form-control" id="txtBalance" type="text">
+                        </div>
+                    </section>
+                    <section class="col-3"></section>
+                </section>
+                <section class="row">
+                    <section class="col-3"></section>
+                    <section class="col-6" style="align-content: center!important;">
+                        <button type="button" class="btn btn-primary btn-sm" id="purchase">Purchase</button>
+                    </section>
+                    <section class="col-3"></section>
+                </section>
+            </section>
         </section>
     </section>
     <section class="row" style="margin: 0 !important;width: 100% !important;height: 45%!important;">
