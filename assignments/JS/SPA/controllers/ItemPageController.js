@@ -60,6 +60,21 @@ $("#btnItmClearAll").click(function (){
     clearText2();
 });
 
+/*--------btn remove----------*/
+$("#btnItmRemove").click(function () {
+    let removeCode = $("#ItemCode").val();
+
+    let option = confirm("Do you want to delete " + removeCode + " Item ?");
+    if (option){
+        if (removeItem(removeCode)) {
+            alert("Item Deleted Successfully..!");
+            setTextFieldValues2("", "", "", "");
+        } else {
+            alert("Something Wrong! Check Item Code and Try Again!");
+        }
+    }
+});
+
 /*--------load all----------*/
 function loadAllItems(){
 
@@ -121,4 +136,16 @@ function searchItem(itmID) {
         }
     }
     return null;
+}
+
+function removeItem(itemID) {
+    let item = searchItem(itemID);
+    if (item != null) {
+        let indexNumber = items.indexOf(item);
+        items.splice(indexNumber, 1);
+        loadAllItems();
+        return true;
+    } else {
+        return false;
+    }
 }
