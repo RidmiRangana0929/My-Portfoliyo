@@ -44,10 +44,21 @@ body>main>section>section{
 #tpSection1,#tpSection2{
     height: 60px;
 }
-#topic1,#topic2{
+#topic1{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
-    padding-top: 2.5vh;
+    padding-top: 0;
+    position: absolute;
+    top: 4%;
+    left: 1%;
+}
+#topic2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    padding-top: 0;
+    position: absolute;
+    left: 1%;
+    top: 31%;
 }
 #timeDiv1{
     position: absolute;
@@ -413,6 +424,7 @@ body>main>section>section{
     font-family: 'Poppins', sans-serif;
     position: absolute;
     left: 20%;
+    border-bottom: 2px solid #9264E1;
 }
 #img1{
     height: 30%;
@@ -546,6 +558,7 @@ body>main>section>section{
     font-family: 'Poppins', sans-serif;
     position: absolute;
     left: 20%;
+    border-bottom: 2px solid #9264E1;
 }
 #img2{
     height: 100%;
@@ -627,6 +640,31 @@ body>main>section>section{
     position: relative;
     right: 3%;
     top: 7%;
+}
+
+.topic3{
+    color: #9264E1;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 33%;
+    border-bottom: 2px solid #9264E1;
+}
+.col-6{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+}
+.col-12{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+}
+.topic4{
+    color: #9264E1;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 33%;
+    border-bottom: 2px solid #9264E1;
 }
 
 

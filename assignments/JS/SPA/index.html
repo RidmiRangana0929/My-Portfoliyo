@@ -466,10 +466,67 @@
 
     <section class="row" style="margin: 0 !important;width: 100% !important;height: 55%!important;">
         <section class="col-4" style="background-color: #ffffff;height: 100%!important;">
-            <section id="ordBox1"></section>
+            <section id="ordBox1">
+
+                <h4 class="topic3">Invoice Detail</h4>
+                <br><br>
+                <section class="row">
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Order Id</label>
+                            <input class="form-control" id="txtOrderID" type="text">
+                            <span class="control-error"
+                                  id="orderId-invalid-error"></span>
+                        </div>
+                    </section>
+                    <section class="col-6"></section>
+                </section>
+                <section class="row">
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Date</label>
+                            <input class="form-control" id="txtDate" type="date">
+                        </div>
+                    </section>
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Customer Id</label>
+                            <select class="form-control" id="selectCusID">
+                            </select>
+                            <span class="control-error"
+                                  id="cus-empty-error"></span>
+                        </div>
+                    </section>
+                </section>
+                <section class="row">
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Customer Name</label>
+                            <input class="form-control" id="orderCustomerName" type="text">
+                        </div>
+                    </section>
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Customer Salary</label>
+                            <input class="form-control" id="orderCustomerSalary" type="text">
+                        </div>
+                    </section>
+                </section>
+                <section class="row">
+                    <section class="col-12">
+                        <div class="form-group">
+                            <label>Customer Address</label>
+                            <input class="form-control" id="orderCustomerAddress" type="text">
+                        </div>
+                    </section>
+                </section>
+            </section>
         </section>
         <section class="col-4" style="background-color: #ffffff;height: 100%!important;">
-            <section id="ordBox2"></section>
+            <section id="ordBox2">
+                <h4 class="topic4">Item Details</h4>
+                <br><br>
+            </section>
         </section>
         <section class="col-4" style="background-color: #ffffff;height: 100%!important;">
             <section id="ordBox3"></section>
