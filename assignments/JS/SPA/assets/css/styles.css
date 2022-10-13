@@ -605,6 +605,22 @@ body>main>section>section{
     left: 21%;
 }
 
+/*==============================*/
+
+#ordBox1,#ordBox2,#ordBox3{
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #dcdce8;
+    height: 95%;
+    width: 100%;
+    position: relative;
+    top: 2%;
+}
+
+#tableHeader3{
+    background-color: #9264E1 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
 
 
 
