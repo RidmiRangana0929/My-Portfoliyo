@@ -420,3 +420,12 @@ body>main>section>section{
     top: 66%;
     left: 23%;
 }
+#cb2{
+    height: 59vh;
+    width: 65vw;
+    position: absolute;
+    top: 3%;
+    left: -1.2%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #dcdce8;
+}
