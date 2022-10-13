@@ -621,6 +621,14 @@ body>main>section>section{
     font-family: 'Poppins', sans-serif;
 }
 
+#img3{
+    height: 93%;
+    width: 105%;
+    position: relative;
+    right: 3%;
+    top: 7%;
+}
+
 
 
 
