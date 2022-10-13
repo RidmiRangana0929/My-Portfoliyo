@@ -291,10 +291,8 @@
 
 <!--customer-->
 <main class="container-fluid " id="customerContent">
-    <section class="row">
+    <section class="row" style="margin: 0 !important;width: 100% !important;">
         <section class="col-4" id="cc1">
-
-
 
             <section id="cb1">
                 <br>
@@ -347,14 +345,12 @@
 
             </section>
 
-
-
         </section>
         <section class="col-8" id="cc2">
 
-            <section id="cb2">
-                <!--<table class="table table-bordered table-hover">
-                    <thead class="bg-danger text-white">
+            <section id="ib2">
+                <table class="table table-bordered table-hover" id="table2">
+                    <thead class="bg-danger text-white" id="tableHeader2">
                     <tr>
                         <th>Customer ID</th>
                         <th>Customer Name</th>
@@ -362,10 +358,10 @@
                         <th>Customer Salary</th>
                     </tr>
                     </thead>
-                    <tbody id="tblCustomer">
+                    <tbody id="tblItem">
 
                     </tbody>
-                </table>-->
+                </table>
             </section>
 
         </section>
@@ -375,6 +371,88 @@
 
 <!--item-->
 <main class="container-fluid " id="itemContent">
+
+    <section class="row" id="imgRow">
+        <img src="assets/img/ItemImage.png" alt="" id="img2">
+    </section>
+
+
+    <section class="row" style="margin: 0 !important;width: 100% !important;" id="mainRow">
+        <section class="col-4" id="ic1">
+
+            <section id="ib1">
+                <br>
+                <h4 class="topic">Item Form</h4>
+                <br><br>
+                <div class="form-group">
+                    <label for="CustomerID" id="itmCode">Item Code</label>
+                    <input class="form-control" id="ItemCode" required type="text">
+                    <span class="control-error" id="lblItmCode"></span>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <label for="CustomerName" id="itmName">Item Name</label>
+                    <input class="form-control" id="ItemName" required type="text">
+                    <span class="control-error" id="lblItmName"></span>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <label for="CustomerAddress" id="itmQty">Item Quantity</label>
+                    <input class="form-control" id="ItemQty" required type="text">
+                    <span class="control-error" id="lblItmQty"></span>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <label for="CustomerSalary" id="itmPrice">Item Price</label>
+                    <input class="form-control" id="ItemPrice" required type="text">
+                    <span class="control-error" id="lblItmPrice"></span>
+                </div>
+
+                <br><br><br>
+
+                <div class="row" style="margin-left: 4%;margin-right: -2%;width: 92%">
+                    <div class="col" id="itm1">
+                        <button type="button" class="btn btn-outline-primary" id="btnItmAdd">Add</button>
+                    </div>
+                    <div class="col" id="itm2">
+                        <button type="button" class="btn btn-outline-primary" id="btnItmUpdate">Update</button>
+                    </div>
+                    <div class="col" id="itm3">
+                        <button type="button" class="btn btn-outline-primary" id="btnItmGetAll">Get All</button>
+                    </div>
+                    <div class="col" id="itm4">
+                        <button type="button" class="btn btn-outline-primary" id="btnItmRemove">Remove</button>
+                    </div>
+                    <div class="col" id="itm5">
+                        <button type="button" class="btn btn-outline-primary" id="btnItmClearAll">Clear All</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+        <section class="col-8" id="ic2">
+
+            <section id="cb2">
+                <table class="table table-bordered table-hover" id="table">
+                    <thead class="bg-danger text-white" id="tableHeader">
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Item Quantity</th>
+                        <th>Item Price</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tblCustomer">
+
+                    </tbody>
+                </table>
+            </section>
+
+        </section>
+    </section>
+
 
 </main>
 

@@ -415,10 +415,12 @@ body>main>section>section{
     left: 20%;
 }
 #img1{
-    height: 31%;
+    height: 30%;
     position: absolute;
-    top: 66%;
-    left: 23%;
+    margin: auto;
+    top: 70%;
+    left: 0;
+    right: 0;
 }
 #cb2{
     height: 59vh;
@@ -429,3 +431,160 @@ body>main>section>section{
     border-radius: 15px;
     box-shadow: 3px 3px 10px #dcdce8;
 }
+
+#table{
+    width: 98%;
+    height: 98%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#tableHeader{
+    background-color: #9264E1 !important;
+}
+
+
+/*==============================*/
+
+#ic1,#ic2{
+    background-color: #ffffff;
+}
+
+#ib1{
+    height: 59vh;
+    width: 29vw;
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #dcdce8;
+}
+
+#itmCode,#itmName,#itmQty,#itmPrice{
+    position: relative;
+    left: 4%;
+    color: #727272 !important;
+}
+
+#ItemCode,#ItemName,#ItemQty,#ItemPrice{
+    width: 92%;
+    height: 8% !important;
+    position: absolute;
+    left: 4%;
+}
+
+#itm1,#itm2,#itm3,#itm4,#itm5{
+    padding: 0 !important;
+    width: 25% !important;
+}
+
+#btnItmAdd{
+    width: 100% !important;
+    padding: 0 !important;
+    border-color: #079992 !important;
+    color: #079992 !important;
+}
+#btnItmUpdate{
+    width: 100% !important;
+    padding: 0 !important;
+    border-color: #4a69bd !important;
+    color: #4a69bd !important;
+}
+#btnItmGetAll{
+    width: 100% !important;
+    padding: 0 !important;
+    border-color: #f0932b !important;
+    color: #f0932b;
+}
+#btnItmRemove{
+    width: 100% !important;
+    padding: 0 !important;
+    border-color: #f53b57 !important;
+    color: #f53b57 !important;
+}
+#btnItmClearAll{
+    width: 100% !important;
+    padding: 0 !important;
+    border-color: #9264E1 !important;
+    color: #9264E1 !important;
+}
+
+#btnItmAdd:hover{
+    background-color: #079992 !important;
+    border-color: #079992 !important;
+    color: #ffffff !important;
+}
+#btnItmUpdate:hover{
+    background-color: #4a69bd !important;
+    border-color: #4a69bd !important;
+    color: #ffffff !important;
+}
+#btnItmGetAll:hover{
+    background-color: #f0932b !important;
+    border-color: #f0932b !important;
+    color: #ffffff !important;
+}
+#btnItmRemove:hover{
+    background-color: #f53b57 !important;
+    border-color: #f53b57 !important;
+    color: #ffffff !important;
+}
+#btnItmClearAll:hover{
+    background-color: #9264E1 !important;
+    border-color: #9264E1 !important;
+    color: #ffffff !important;
+}
+
+.topic2{
+    color: #9264E1;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 20%;
+}
+#img2{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#ib2{
+    height: 59vh;
+    width: 65vw;
+    position: absolute;
+    top: 3%;
+    left: -1.2%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #dcdce8;
+}
+
+#table2{
+    width: 98%;
+    height: 98%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#tableHeader2{
+    background-color: #9264E1 !important;
+}
+
+#imgRow{
+    height: 30% !important;
+}
+
+
+
+
