@@ -15,6 +15,8 @@ $("#btnItmAdd").click(function (){
 
     loadAllItems();
 
+    clearText2();
+
     bindRowClickEvents2();
 });
 
@@ -30,6 +32,32 @@ $("#ItemCode").on('keyup', function (event) {
             setTextFieldValues2("", "", "", "");
         }
     }
+});
+
+/*--------btn update----------*/
+$("#btnItmUpdate").click(function () {
+    let itemID = $("#ItemCode").val();
+    let response = updateItem(itemID);
+    if (response) {
+        alert("Item Details Updated Successfully..!");
+        setTextFieldValues2("", "", "", "");
+    } else {
+        alert("Something Wrong! Try Again!");
+
+    }
+
+    clearText2();
+
+});
+
+/*--------btn get all----------*/
+$("#btnItmGetAll").click(function (){
+    loadAllItems();
+});
+
+/*--------btn clear all----------*/
+$("#btnItmClearAll").click(function (){
+    clearText2();
 });
 
 /*--------load all----------*/
@@ -60,11 +88,30 @@ function bindRowClickEvents2() {
     });
 }
 
+function updateItem(itemID) {
+    let item = searchItem(itemID);
+
+    if (item != null) {
+        item.code = $("#ItemCode").val();
+        item.name = $("#ItemName").val();
+        item.qty = $("#ItemQty").val();
+        item.price = $("#ItemPrice").val();
+        loadAllItems();
+        return true;
+    } else {
+        return false;
+    }
+}
+
 function setTextFieldValues2(code, name, qty, price) {
     $("#ItemCode").val(code);
     $("#ItemName").val(name);
     $("#ItemQty").val(qty);
     $("#ItemPrice").val(price);
+}
+
+function clearText2(){
+    $("#ItemCode,#ItemName,#ItemQty,#ItemPrice").val("");
 }
 
 function searchItem(itmID) {
