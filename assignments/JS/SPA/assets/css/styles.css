@@ -578,6 +578,15 @@ body>main>section>section{
     border-radius: 15px;
     box-shadow: 3px 3px 10px #dcdce8;
 }
+#ib3{
+    height: 40vh;
+    width: 63vw;
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #dcdce8;
+}
 
 #table2{
     width: 98%;
@@ -628,10 +637,20 @@ body>main>section>section{
     position: relative;
     top: 2%;
 }
+/*#tblCart{
+    width: 98%;
+    height: 98%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'Poppins', sans-serif !important;
+}*/
 
 #tableHeader3{
     background-color: #9264E1 !important;
-    font-family: 'Poppins', sans-serif;
 }
 
 #img3{

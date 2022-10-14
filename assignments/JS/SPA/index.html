@@ -561,7 +561,7 @@
                     <section class="col-6">
                         <div class="form-group">
                             <label style="color: #727272 !important;">Order Quantity</label>
-                            <input class="form-control" id="txtQty" min="1" type="number">
+                            <input class="form-control" id="selectedQty" min="1" type="number">
                             <span class="control-error" id="order-qty-empty-error"></span>
                         </div>
                     </section>
@@ -625,20 +625,25 @@
     </section>
     <section class="row" style="margin: 0 !important;width: 100% !important;height: 45%!important;">
         <section class="col-8" style="background-color: #ffffff;height: 100%!important;">
-            <table class="table table-bordered table-hover" id="table3">
-                <thead class="bg-danger text-white" id="tableHeader3">
-                <tr>
-                    <th>Item Code</th>
-                    <th>Item Name</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
-                    <th>Total</th>
-                </tr>
-                </thead>
-                <tbody id="tblOrder">
 
-                </tbody>
-            </table>
+            <section id="ib3">
+                <table class="table table-bordered table-hover" id="tblCart">
+                    <thead class="bg-danger text-white" id="tableHeader3">
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tblOrder">
+
+                    </tbody>
+                </table>
+            </section>
+
+
         </section>
         <section class="col-4" style="background-color: #ffffff;height: 100%!important;">
             <img src="assets/img/order2.png" alt="" id="img3">
